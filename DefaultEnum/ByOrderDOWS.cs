@@ -6,14 +6,17 @@
 namespace DefaultEnum
 {
     /// <summary>
-    /// This is a simple object to used to demonstrant using the "default" 
-    /// keyword with an object type
+    /// This enumeration is used to demonstrant how to use the default 
+    /// attribute and how it returns the first item in the list 
     /// </summary>
-    public class Person
+    public enum ByOrderDOWS
     {
-        public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public int Age { get; set; }
+        Sunday,
+        Monday,
+        Tuesday,
+        Wendesday,
+        Thursday,
+        Friday,
+        Saturday
     }
 }

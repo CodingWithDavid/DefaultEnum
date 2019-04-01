@@ -3,13 +3,16 @@
  *#  Copyright 2018 by WesTex Enterprises                #
  *########################################################*/
 
+using System.ComponentModel;
+
 namespace DefaultEnum
 {
     /// <summary>
-    /// This enumeration is used to demonstrant the general use case of using 
-    /// the "default" keyword and how it will return the 0 index item 
+    /// This enumeration is used to demonstrant how to use the default 
+    /// attribute and how it ignores the 0 index 
     /// </summary>
-    public enum DaysOfTheWeekSetByZeroValue
+    [DefaultValue(Tuesday)]
+    public enum DOWSetByZeroValueWithDefaultValueAttribute
     {
         Monday = 0,
         Tuesday = 1,

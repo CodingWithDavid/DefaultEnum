@@ -6,17 +6,18 @@
 namespace DefaultEnum
 {
     /// <summary>
-    /// This enumeration is used to demonstrant the general use case of using 
-    /// the "default" keyword and how it will return the 0 index item 
+    /// This enumeration is used to demonstrant how to use the default 
+    /// attribute and how it always return the 0 indexed item 
     /// </summary>
-    public enum DaysOfTheWeekSetByZeroValue
+    public enum NextDOWSetByZeroValueWithANegitive
     {
-        Monday = 0,
+        NoDay = -1,
         Tuesday = 1,
         Wendesday = 2,
         Thursday = 3,
         Friday = 4,
         Saturday = 5,
         Sunday = 6,
+        Monday = 0,
     }
 }
