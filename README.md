@@ -2,8 +2,8 @@
 
 - [Objective](#Objective)
 - [Instructions](#Instructions)
-- [License And Credits] (#License and Creidts)
-- [Disclamier] (#Disclamier)
+- [License And Credits](#LicenseandCredits)
+- [Disclamier](#Disclamier)
 
 ## Objective
 Project to demonstrate the function of the default key word in C#.  The 
@@ -16,7 +16,7 @@ To access the source sampels, download or clone this respoitory.  The sampels
 on in C# .Net Core 2.2.  The solution is Visual Studio 2017.
 
 
-## License and Creidts
+## LicenseandCredits
 The DefaultEnum Sample is released under the MIT license.
 
 
